@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="Guro99 home test">
+    <listeners>
+        <listener class-name="Listeners.TestNGListener"/>
+    </listeners>
+    <test name="Choose from menu">
+        <parameter name="url" value="https://demo.guru99.com/"/>
+        <classes>
+            <class name="Tests.Guro99HomeTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="Html table test">
+    <listeners>
+        <listener class-name="Listeners.TestNGListener"/>
+    </listeners>
+    <test name="Table validate">
+        <parameter name="url" value="https://www.w3schools.com/html/html_tables.asp"/>
+        <classes>
+            <class name="Tests.HtmlTableTest"/>
+        </classes>
+    </test>
+</suite>
